@@ -50,11 +50,11 @@ function generatePassword() {
   }
 
   if (includeDigits) {
-  charSet =+ digits
+  charSet += digits
   }
 
   if (includeSpecial) {
-  charSet =+ special
+  charSet += special
   }
 
   for (var i = 0; i < lenghtOfPassword; i++) {
